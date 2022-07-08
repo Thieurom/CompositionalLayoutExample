@@ -10,9 +10,36 @@
 		4D549D142876B9F600D91C69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D132876B9F600D91C69 /* AppDelegate.swift */; };
 		4D549D162876B9F600D91C69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D152876B9F600D91C69 /* SceneDelegate.swift */; };
 		4D549D182876B9F600D91C69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D172876B9F600D91C69 /* ViewController.swift */; };
-		4D549D1B2876B9F600D91C69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D549D192876B9F600D91C69 /* Main.storyboard */; };
 		4D549D1D2876B9F700D91C69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D549D1C2876B9F700D91C69 /* Assets.xcassets */; };
 		4D549D202876B9F700D91C69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D549D1E2876B9F700D91C69 /* LaunchScreen.storyboard */; };
+		4D549D292876BC4400D91C69 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4D549D282876BC4400D91C69 /* SnapKit */; };
+		4D549D2B2876BF7700D91C69 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D2A2876BF7700D91C69 /* ViewModel.swift */; };
+		4D549D2E2876C23800D91C69 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 4D549D2D2876C23800D91C69 /* RxCocoa */; };
+		4D549D302876C23800D91C69 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 4D549D2F2876C23800D91C69 /* RxRelay */; };
+		4D549D322876C23800D91C69 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4D549D312876C23800D91C69 /* RxSwift */; };
+		4D549D342876D0D200D91C69 /* AssetCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D332876D0D200D91C69 /* AssetCollectionViewCell.swift */; };
+		4D549D362876DB6000D91C69 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D352876DB5F00D91C69 /* Coin.swift */; };
+		4D549D382876DBA800D91C69 /* Asset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D372876DBA800D91C69 /* Asset.swift */; };
+		4D549D3A2876DBC600D91C69 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D392876DBC600D91C69 /* Transaction.swift */; };
+		4D549D3F2876DFC300D91C69 /* RatedCoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D3E2876DFC300D91C69 /* RatedCoin.swift */; };
+		4D549D432876E3E600D91C69 /* AssetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D422876E3E600D91C69 /* AssetViewModel.swift */; };
+		4D549D452876E42000D91C69 /* Sectionable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D442876E42000D91C69 /* Sectionable.swift */; };
+		4D549D492876E71600D91C69 /* CollectionSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D482876E71600D91C69 /* CollectionSectionHeaderView.swift */; };
+		4D549D4B2876EACB00D91C69 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D4A2876EACB00D91C69 /* DataSource.swift */; };
+		4D549D4D2876EE1400D91C69 /* TotalBalanceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D4C2876EE1400D91C69 /* TotalBalanceViewModel.swift */; };
+		4D549D4F28770ECD00D91C69 /* Applicable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D4E28770ECD00D91C69 /* Applicable.swift */; };
+		4D549D5228770F6300D91C69 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D5128770F6300D91C69 /* BaseCollectionViewCell.swift */; };
+		4D549D542877167B00D91C69 /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D532877167B00D91C69 /* TransactionViewModel.swift */; };
+		4D549D562877175500D91C69 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D552877175500D91C69 /* DescriptionView.swift */; };
+		4D549D582877185000D91C69 /* TransactionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D572877185000D91C69 /* TransactionCollectionViewCell.swift */; };
+		4D549D5A2877194600D91C69 /* RatedCoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D592877194600D91C69 /* RatedCoinCollectionViewCell.swift */; };
+		4D549D5C28771B2C00D91C69 /* RatedCoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D5B28771B2C00D91C69 /* RatedCoinViewModel.swift */; };
+		4D549D5E28771FEE00D91C69 /* TotalBalanceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D5D28771FEE00D91C69 /* TotalBalanceCollectionViewCell.swift */; };
+		4D549D622877240800D91C69 /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D612877240800D91C69 /* UICollectionView+Register.swift */; };
+		4D549D642877242300D91C69 /* UICollectionView+Dequeue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D632877242300D91C69 /* UICollectionView+Dequeue.swift */; };
+		4D549D662877244E00D91C69 /* Array+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D652877244E00D91C69 /* Array+Snapshot.swift */; };
+		4D549D682877247300D91C69 /* UICollectionViewDiffableDataSource+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D549D672877247300D91C69 /* UICollectionViewDiffableDataSource+Snapshot.swift */; };
+		4DAA39582878320E00D0866C /* SectionLayoutKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAA39572878320E00D0866C /* SectionLayoutKind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +47,33 @@
 		4D549D132876B9F600D91C69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D549D152876B9F600D91C69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4D549D172876B9F600D91C69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4D549D1A2876B9F600D91C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4D549D1C2876B9F700D91C69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D549D1F2876B9F700D91C69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D549D212876B9F700D91C69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D549D2A2876BF7700D91C69 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		4D549D332876D0D200D91C69 /* AssetCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D549D352876DB5F00D91C69 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		4D549D372876DBA800D91C69 /* Asset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Asset.swift; sourceTree = "<group>"; };
+		4D549D392876DBC600D91C69 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		4D549D3E2876DFC300D91C69 /* RatedCoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedCoin.swift; sourceTree = "<group>"; };
+		4D549D422876E3E600D91C69 /* AssetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetViewModel.swift; sourceTree = "<group>"; };
+		4D549D442876E42000D91C69 /* Sectionable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sectionable.swift; sourceTree = "<group>"; };
+		4D549D482876E71600D91C69 /* CollectionSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionSectionHeaderView.swift; sourceTree = "<group>"; };
+		4D549D4A2876EACB00D91C69 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		4D549D4C2876EE1400D91C69 /* TotalBalanceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBalanceViewModel.swift; sourceTree = "<group>"; };
+		4D549D4E28770ECD00D91C69 /* Applicable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Applicable.swift; sourceTree = "<group>"; };
+		4D549D5128770F6300D91C69 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D549D532877167B00D91C69 /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		4D549D552877175500D91C69 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		4D549D572877185000D91C69 /* TransactionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D549D592877194600D91C69 /* RatedCoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedCoinCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D549D5B28771B2C00D91C69 /* RatedCoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatedCoinViewModel.swift; sourceTree = "<group>"; };
+		4D549D5D28771FEE00D91C69 /* TotalBalanceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBalanceCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D549D612877240800D91C69 /* UICollectionView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
+		4D549D632877242300D91C69 /* UICollectionView+Dequeue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Dequeue.swift"; sourceTree = "<group>"; };
+		4D549D652877244E00D91C69 /* Array+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Snapshot.swift"; sourceTree = "<group>"; };
+		4D549D672877247300D91C69 /* UICollectionViewDiffableDataSource+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewDiffableDataSource+Snapshot.swift"; sourceTree = "<group>"; };
+		4DAA39572878320E00D0866C /* SectionLayoutKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionLayoutKind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +81,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D549D302876C23800D91C69 /* RxRelay in Frameworks */,
+				4D549D2E2876C23800D91C69 /* RxCocoa in Frameworks */,
+				4D549D322876C23800D91C69 /* RxSwift in Frameworks */,
+				4D549D292876BC4400D91C69 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +110,86 @@
 		4D549D122876B9F600D91C69 /* CompositionalLayoutExample */ = {
 			isa = PBXGroup;
 			children = (
-				4D549D132876B9F600D91C69 /* AppDelegate.swift */,
-				4D549D152876B9F600D91C69 /* SceneDelegate.swift */,
-				4D549D172876B9F600D91C69 /* ViewController.swift */,
-				4D549D192876B9F600D91C69 /* Main.storyboard */,
+				4D549D5F287723EE00D91C69 /* Application */,
+				4D549D60287723FB00D91C69 /* Extensions */,
+				4D549D5028770EDD00D91C69 /* Protocols */,
+				4D549D3D2876DFA200D91C69 /* ViewModels */,
+				4D549D3B2876DF6600D91C69 /* Models */,
+				4D549D3C2876DF8200D91C69 /* Views */,
 				4D549D1C2876B9F700D91C69 /* Assets.xcassets */,
 				4D549D1E2876B9F700D91C69 /* LaunchScreen.storyboard */,
 				4D549D212876B9F700D91C69 /* Info.plist */,
 			);
 			path = CompositionalLayoutExample;
+			sourceTree = "<group>";
+		};
+		4D549D3B2876DF6600D91C69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D352876DB5F00D91C69 /* Coin.swift */,
+				4D549D372876DBA800D91C69 /* Asset.swift */,
+				4D549D392876DBC600D91C69 /* Transaction.swift */,
+				4D549D3E2876DFC300D91C69 /* RatedCoin.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D549D3C2876DF8200D91C69 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D332876D0D200D91C69 /* AssetCollectionViewCell.swift */,
+				4D549D5128770F6300D91C69 /* BaseCollectionViewCell.swift */,
+				4D549D482876E71600D91C69 /* CollectionSectionHeaderView.swift */,
+				4D549D4A2876EACB00D91C69 /* DataSource.swift */,
+				4D549D552877175500D91C69 /* DescriptionView.swift */,
+				4D549D592877194600D91C69 /* RatedCoinCollectionViewCell.swift */,
+				4D549D5D28771FEE00D91C69 /* TotalBalanceCollectionViewCell.swift */,
+				4D549D572877185000D91C69 /* TransactionCollectionViewCell.swift */,
+				4D549D172876B9F600D91C69 /* ViewController.swift */,
+				4DAA39572878320E00D0866C /* SectionLayoutKind.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4D549D3D2876DFA200D91C69 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D2A2876BF7700D91C69 /* ViewModel.swift */,
+				4D549D422876E3E600D91C69 /* AssetViewModel.swift */,
+				4D549D532877167B00D91C69 /* TransactionViewModel.swift */,
+				4D549D5B28771B2C00D91C69 /* RatedCoinViewModel.swift */,
+				4D549D4C2876EE1400D91C69 /* TotalBalanceViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		4D549D5028770EDD00D91C69 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D442876E42000D91C69 /* Sectionable.swift */,
+				4D549D4E28770ECD00D91C69 /* Applicable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4D549D5F287723EE00D91C69 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D132876B9F600D91C69 /* AppDelegate.swift */,
+				4D549D152876B9F600D91C69 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4D549D60287723FB00D91C69 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4D549D652877244E00D91C69 /* Array+Snapshot.swift */,
+				4D549D672877247300D91C69 /* UICollectionViewDiffableDataSource+Snapshot.swift */,
+				4D549D612877240800D91C69 /* UICollectionView+Register.swift */,
+				4D549D632877242300D91C69 /* UICollectionView+Dequeue.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +208,12 @@
 			dependencies = (
 			);
 			name = CompositionalLayoutExample;
+			packageProductDependencies = (
+				4D549D282876BC4400D91C69 /* SnapKit */,
+				4D549D2D2876C23800D91C69 /* RxCocoa */,
+				4D549D2F2876C23800D91C69 /* RxRelay */,
+				4D549D312876C23800D91C69 /* RxSwift */,
+			);
 			productName = CompositionalLayoutExample;
 			productReference = 4D549D102876B9F600D91C69 /* CompositionalLayoutExample.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +242,10 @@
 				Base,
 			);
 			mainGroup = 4D549D072876B9F600D91C69;
+			packageReferences = (
+				4D549D272876BC4400D91C69 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				4D549D2C2876C23800D91C69 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 4D549D112876B9F600D91C69 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +262,6 @@
 			files = (
 				4D549D202876B9F700D91C69 /* LaunchScreen.storyboard in Resources */,
 				4D549D1D2876B9F700D91C69 /* Assets.xcassets in Resources */,
-				4D549D1B2876B9F600D91C69 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +272,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D549D4B2876EACB00D91C69 /* DataSource.swift in Sources */,
+				4DAA39582878320E00D0866C /* SectionLayoutKind.swift in Sources */,
+				4D549D362876DB6000D91C69 /* Coin.swift in Sources */,
+				4D549D5C28771B2C00D91C69 /* RatedCoinViewModel.swift in Sources */,
+				4D549D382876DBA800D91C69 /* Asset.swift in Sources */,
+				4D549D682877247300D91C69 /* UICollectionViewDiffableDataSource+Snapshot.swift in Sources */,
+				4D549D582877185000D91C69 /* TransactionCollectionViewCell.swift in Sources */,
+				4D549D3A2876DBC600D91C69 /* Transaction.swift in Sources */,
+				4D549D432876E3E600D91C69 /* AssetViewModel.swift in Sources */,
+				4D549D3F2876DFC300D91C69 /* RatedCoin.swift in Sources */,
+				4D549D452876E42000D91C69 /* Sectionable.swift in Sources */,
+				4D549D562877175500D91C69 /* DescriptionView.swift in Sources */,
+				4D549D642877242300D91C69 /* UICollectionView+Dequeue.swift in Sources */,
+				4D549D5228770F6300D91C69 /* BaseCollectionViewCell.swift in Sources */,
 				4D549D182876B9F600D91C69 /* ViewController.swift in Sources */,
+				4D549D4F28770ECD00D91C69 /* Applicable.swift in Sources */,
+				4D549D492876E71600D91C69 /* CollectionSectionHeaderView.swift in Sources */,
+				4D549D542877167B00D91C69 /* TransactionViewModel.swift in Sources */,
+				4D549D662877244E00D91C69 /* Array+Snapshot.swift in Sources */,
+				4D549D5A2877194600D91C69 /* RatedCoinCollectionViewCell.swift in Sources */,
+				4D549D4D2876EE1400D91C69 /* TotalBalanceViewModel.swift in Sources */,
+				4D549D342876D0D200D91C69 /* AssetCollectionViewCell.swift in Sources */,
 				4D549D142876B9F600D91C69 /* AppDelegate.swift in Sources */,
+				4D549D2B2876BF7700D91C69 /* ViewModel.swift in Sources */,
 				4D549D162876B9F600D91C69 /* SceneDelegate.swift in Sources */,
+				4D549D5E28771FEE00D91C69 /* TotalBalanceCollectionViewCell.swift in Sources */,
+				4D549D622877240800D91C69 /* UICollectionView+Register.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4D549D192876B9F600D91C69 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D549D1A2876B9F600D91C69 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4D549D1E2876B9F700D91C69 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +443,6 @@
 				INFOPLIST_FILE = CompositionalLayoutExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +469,6 @@
 				INFOPLIST_FILE = CompositionalLayoutExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +506,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4D549D272876BC4400D91C69 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		4D549D2C2876C23800D91C69 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4D549D282876BC4400D91C69 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D549D272876BC4400D91C69 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		4D549D2D2876C23800D91C69 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D549D2C2876C23800D91C69 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		4D549D2F2876C23800D91C69 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D549D2C2876C23800D91C69 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		4D549D312876C23800D91C69 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4D549D2C2876C23800D91C69 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4D549D082876B9F600D91C69 /* Project object */;
 }
